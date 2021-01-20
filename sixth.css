@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inp-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+.inp-style{
+    width: 360px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.reg-style{
+    width: 380px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: #fff;
+    font-weight: 700;
+    background-color:  #3139E4;
+}

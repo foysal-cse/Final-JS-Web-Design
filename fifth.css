@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 236, 236);
+}
+#header-full{
+    background-color: #fff;
+    height: 60px;
+}
+.logo img{
+    margin-top: 20px;
+   margin-left: 100px;
+   float: left;
+}
+.profile{
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.profile-name{
+    padding: 5px;
+}
+#content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+/**
+ <!--Form Design Part-->
+**/
+.inp-form{
+    flex-basis: 450px;
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    float: left;
+}
+.inp-style{
+    width: 360px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.reg-style{
+    width: 380px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: #fff;
+    font-weight: 700;
+    background-color:  #3139E4;
+}
+/**
+ <!--Table Design Part-->
+**/
+.table-style{
+    flex-basis: 700px;
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+}
+label{
+    font-weight: 700;
+}
+.status td, .status th {
+    padding: 10px;
+  }
+.img-bg{
+    color: green;
+    background-color: #C3FFD4;
+    border-radius: 5px;
+    border: none;
+}
+.img-bg img{
+    color: greenyellow;
+}
+.img-bg-down{
+    color: red;
+    background-color: #FFC3C3;
+}
+.edit-btn-style{
+    background-color: #3CAC32;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.del-btn-style{
+    background-color: #E2232E;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+/**Responsive**/
+@media only screen and (max-width: 760px) {
+    .inp-form{
+      width: 100%;
+      margin: 50px auto;
+    }
+    .table-style{
+        width: 100%;
+    }
+    .inp-style{
+        width: 150px;
+    }
+    .reg-style{
+        width: 150px;
+    }
+  }
